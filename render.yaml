@@ -1,0 +1,18 @@
+services:
+  - type: web
+    name: rtcreation-web
+    env: python
+    buildCommand: |
+      pip install -r requirements.txt
+    startCommand: gunicorn RTCreation.wsgi:application
+    staticPublishPath: staticfiles
+    envVars:
+      - key: DJANGO_SETTINGS_MODULE
+        value: RTCreation.settings
+      - key: PYTHON_VERSION
+        value: 3.11
+      - key: SECRET_KEY
+        generateValue: true
+      - key: DEBUG
+        value: "False"
+
