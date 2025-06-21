@@ -6810,7 +6810,7 @@
             </ul>
             <form method="POST">
                 {% csrf_token %}
-                <button onclick="downloadFile()" type="submit" id="btn"><i class="fas fa-play" ></i>PLAY NOW</button>
+                <button onclick="downloadFile()" type="submit" id="btn"><i class="fas fa-play" ></i>{{counter.count}} Visitors</button>
             </form>
         </header>
 
