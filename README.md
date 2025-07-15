@@ -6,7 +6,7 @@ A Django-based platform to distribute, update, and manage feedback for the 2D Ja
 
 ## 🔗 Live Demo
 
-🌐 [Visit Website]([rtcreation.onrender.com](https://rtcreation.onrender.com/))  
+🌐 [Visit Website](https://rtcreation.onrender.com/)  
 
 ---
 
